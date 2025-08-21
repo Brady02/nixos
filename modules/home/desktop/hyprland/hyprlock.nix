@@ -37,7 +37,7 @@
         fade_on_empty = false;
         swap_font_color = true;
         placeholder_text = "";
-        #font_family = "Iosevka Nerd Font";
+        font_family = "Iosevka Nerd Font";
         font_size = 12;
         font_color = "rgba(254, 254, 254, 1.0)";
         inner_color = "rgba(0, 0, 0, 0.0)";

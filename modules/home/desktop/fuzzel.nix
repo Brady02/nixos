@@ -3,7 +3,7 @@
     enable = true;
     settings = {
       main = {
-        #font = "Iosevka Nerd Font:size=12";
+        font = "Iosevka Nerd Font:size=12";
         icon-theme = "Papirus";
         width = 60;
         lines = 8;

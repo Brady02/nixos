@@ -11,6 +11,7 @@
 
   # ls, fmt, linters
   home.packages = with pkgs; [
+    cargo
     gopls
     clang-tools
     typescript-language-server

@@ -37,5 +37,6 @@
 
   home.packages = with pkgs; [
     gtk-engine-murrine
+    nerd-fonts.iosevka
   ];
 }

@@ -209,24 +209,24 @@
       }
 
       tooltip {
-        background: #1a1b26;
+        background: #282828;
         border-radius: 7px;
         border-width: 2px;
         border-style: solid;
-        border-color: #11111b;
+        border-color: #141617;
         opacity: 1.0;
       }
 
       #workspaces button {
         padding: 5px;
-        color: #313244;
+        color: #7c6f63;
         margin-right: 5px;
         /* margin-left: 10px; */
       }
 
       #workspaces button.active {
-        color: #89b4fa;
-        background: #1a1b26;
+        color: #7daea3;
+        background: #282828;
       }
 
       #workspaces button.focused {
@@ -243,7 +243,7 @@
       }
 
       #workspaces button:hover {
-        background: #11111b;
+        background: #141617;
         color: #c0caf5;
         border-radius: 17px;
       }
@@ -253,7 +253,6 @@
 
       #window,
       #clock,
-      #battery,
       #mpris,
       #pulseaudio,
       #custom-pacman,
@@ -262,14 +261,13 @@
       #temperature,
       #workspaces,
       #tray,
-      #mpd,
       #custom-pomodoro,
       #cpu,
       #memory,
       #custom-spotify,
 
       #modbackground {
-        background: #1a1b26;
+        background: #282828;
         opacity: 1.0;
         padding: 0px 7px;
         margin-top: 5px;
@@ -279,7 +277,7 @@
 
       #backlight {
         border-radius: 7px 0px 0px 7px;
-        background: #1a1b26;
+        background: #282828;
         opacity: 1.0;
         padding: 0px 7px;
         margin-top: 5px;
@@ -287,7 +285,7 @@
       }
 
       #pulseaudio {
-        color: #89b4fa;
+        color: #7daea3;
         border-radius: 0px;
         border-left: 0px;
         border-radius: 7px 0px 0px 7px;
@@ -295,7 +293,7 @@
       }
 
       #pulseaudio.microphone {
-        color: #cba6f7;
+        color: #d3869b;
         border-left: 0px;
         border-right: 0px;
         border-radius: 0px 7px 7px 0px;
@@ -303,12 +301,12 @@
       }
 
       #cpu {
-        color: #89dceb;
+        color: #a9b665;
         border-radius: 7px 0px 0px 7px;
       }
 
       #memory {
-        color: #94e2d5;
+        color: #a9b665;
         border-radius: 0px 7px 7px 0px;
         margin-right: 5px;
       }
@@ -319,7 +317,7 @@
       }
 
       #workspaces {
-        background: #1a1b26;
+        background: #282828;
         border-radius: 7px;
         margin-left: 5px;
         padding-right: 5px;
@@ -341,7 +339,7 @@
       }
 
       #clock {
-        color: #fab387;
+        color: #e78a4e;
         border-radius: 7px;
         /* margin-left: 10px; */
         margin-right: 5px;
@@ -392,13 +390,6 @@
       #mpris.paused {
         color: #c0caf5;
         border-bottom: 2px solid @yellow;
-      }
-
-      #mpd {
-        color: #c0caf5;
-        border-radius: 7px;
-        margin-right: 5px;
-        border-right: 0px;
       }
 
       #mpd.paused {

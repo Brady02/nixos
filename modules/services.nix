@@ -1,6 +1,7 @@
 { pkgs, ... }:
 {
   services = {
+    xserver.videoDrivers = ["nvidia"];
     pipewire = {
       enable = true;
       alsa.enable = true;

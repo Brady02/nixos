@@ -14,7 +14,7 @@
   boot.extraModulePackages = [ ];
 
   fileSystems."/" =
-    { device = "/dev/disk/by-uuid/2dc21691-9ba5-48dd-a3ef-03d65711c9ed";
+    { device = "/dev/disk/by-uuid/03a56591-a727-4ade-95bb-25eb271f7f5d";
       fsType = "ext4";
     };
 
@@ -36,4 +36,5 @@
 
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
   hardware.cpu.amd.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
+  hardware.nvidia.open = lib.mkOverride 990 (config.hardware.nvidia.package ? open && config.hardware.nvidia.package ? firmware);
 }

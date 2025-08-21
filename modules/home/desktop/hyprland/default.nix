@@ -14,7 +14,7 @@
       "$terminal" = "kitty";
       "$tuiFM" = "yazi";
       "$menu" = "fuzzel";
-      "$browser" = "firefow";
+      "$browser" = "firefox";
 
       exec-once = [ "waybar" ];
 
@@ -160,6 +160,19 @@
       bindm = [
         "$mainMod, mouse:272, movewindow"
         "$mainMod, mouse:273, resizewindow"
+      ];
+
+      workspace = [
+      	"1,monitor:DP-5"
+      	"2,monitor:HDMI-A-3"
+      	"3,monitor:DP-5"
+      	"4,monitor:HDMI-A-3"
+      	"5,monitor:DP-5"
+      	"6,monitor:HDMI-A-3"
+      	"7,monitor:DP-5"
+      	"8,monitor:HDMI-A-3"
+      	"9,monitor:DP-5"
+      	"10,monitor:HDMI-A-3"
       ];
     };
   };
