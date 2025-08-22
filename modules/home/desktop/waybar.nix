@@ -197,7 +197,7 @@
       * {
         border: none;
         border-radius: 0px;
-        font-family: "Iosevka Nerd Font";
+        font-family: "firacode Nerd Font";
         font-weight: 600;
         font-size: 14px;
         min-height: 0;

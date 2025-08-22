@@ -3,7 +3,7 @@
     enable = true;
     settings = {
       main = {
-        font = "Iosevka Nerd Font:size=12";
+        font = "firacode Nerd Font:size=12";
         icon-theme = "Papirus";
         width = 60;
         lines = 8;
@@ -13,13 +13,13 @@
         dpi-aware = "no";
       };
       colors = {
-        background = "16161eff";
-        text = "c0caf5ff";
-        match = "2ac3deff";
-        selection = "343a55ff";
-        selection-match = "2ac3deff";
-        selection-text = "c0caf5ff";
-        border = "7aa2f7aa";
+        background = "282828ff";
+        text = "7c6f63ff";
+        match = "ddc7a1ff";
+        selection = "32302fff";
+        selection-match = "a9b665ff";
+        selection-text = "d8a657ff";
+        border = "e78a4eff";
       };
       border = {
         width = 2;

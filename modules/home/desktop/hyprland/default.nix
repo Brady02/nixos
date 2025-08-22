@@ -39,8 +39,8 @@
         gaps_in = 2;
         gaps_out = 5;
         border_size = 2;
-        "col.active_border" = "rgba(7aa2f7aa)";
-        "col.inactive_border" = "rgba(414868aa)";
+        "col.active_border" = "rgb(e78a4e)";
+        "col.inactive_border" = "rgb(928374)";
         layout = "dwindle";
       };
 
@@ -56,7 +56,7 @@
           enabled = true;
           range = 4;
           render_power = 3;
-          color = "rgba(1a1a1aee)";
+          color = "rgb(1d2021)";
         };
       };
 

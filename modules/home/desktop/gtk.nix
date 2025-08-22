@@ -16,7 +16,7 @@
       size = 24;
     };
     font = {
-      name = "Iosevka Nerd Font";
+      name = "firacode Nerd Font";
       size = 10;
     };
     gtk3.extraConfig = {
@@ -38,5 +38,6 @@
   home.packages = with pkgs; [
     gtk-engine-murrine
     nerd-fonts.iosevka
+    nerd-fonts.fira-code
   ];
 }

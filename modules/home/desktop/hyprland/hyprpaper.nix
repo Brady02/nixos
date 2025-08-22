@@ -3,8 +3,8 @@
     enable = true;
     settings = {
       splash = false;
-      #preload = [ "~/.config/dronevil/modules/home/desktop/hyprland/wallpaper/mountain.jpeg" ];
-      #wallpaper = [ ",~/.config/dronevil/modules/home/desktop/hyprland/wallpaper/mountain.jpeg" ];
+      preload = [ "~/nixos/modules/home/desktop/hyprland/wallpaper/gruvbox-nix.png" ];
+      wallpaper = [ ",~/nixos/modules/home/desktop/hyprland/wallpaper/gruvbox-nix.png" ];
     };
   };
 }

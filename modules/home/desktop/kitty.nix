@@ -2,7 +2,7 @@
   programs.kitty = {
     enable = true;
     settings = {
-      font = "IosevkaTerm Nerd:size=12";
+      font = "firacode Nerd:size=12";
         background = "#282828";
         foreground = "#ddc7a1";
         color0 = "#7daea3";

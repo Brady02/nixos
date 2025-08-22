@@ -12,7 +12,7 @@
         corner_radius = 5;
         frame_width = 2;
         gap_size = 2;
-        font = "Iosevka Nerd Font 9";
+        font = "firacode Nerd Font 9";
         format = "<b>%s</b>\n%b";
         enable_recursive_icon_lookup = true;
         min_icon_size = 32;
@@ -20,21 +20,21 @@
       };
 
       urgency_low = {
-        background = "#16161e";
-        foreground = "#c0caf5";
-        frame_color = "#5471B2";
+        background = "#282828";
+        foreground = "#ddc7a1";
+        frame_color = "#a9b665";
       };
 
       urgency_normal = {
-        background = "#1a1b26";
-        foreground = "#c0caf5";
-        frame_color = "#5471B2";
+        background = "#282828";
+        foreground = "#ddc7a1";
+        frame_color = "#d8a657";
       };
 
       urgency_critical = {
-        background = "#292e42";
-        foreground = "#db4b4b";
-        frame_color = "#db4b4b";
+        background = "#282828";
+        foreground = "#ddc7a1";
+        frame_color = "#ea6962";
       };
     };
   };
